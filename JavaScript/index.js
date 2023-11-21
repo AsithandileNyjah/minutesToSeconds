@@ -27,7 +27,3 @@ function clear (){
     document.querySelector('[minutes]').value = '';
     document.querySelector('[view]').value = '';
 }
-
-function disableInput() {
-    document.querySelector('[view]').disabled = true;
-}
